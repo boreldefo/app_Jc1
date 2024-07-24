@@ -1,0 +1,349 @@
+.paiement {
+  color: red;
+}
+
+body {
+  background-image: url("public/images/PHOTO-2023-09-10-15-25-33.jpg") !important;
+}
+.content {
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+.info-container ul li {
+  display: flex;
+}
+
+.info-container ul li strong {
+  margin-right: 5px;
+}
+
+.article-list {
+  width: 100%;
+}
+
+.article-list ul li {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 3px;
+  border: var(--border);
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .article-list ul li {
+    flex-flow: column;
+  }
+
+  .article-actions {
+    margin-top: 1rem;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+.main {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+div h4 {
+  margin-left: 4%;
+  margin-bottom: 7px;
+  margin-top: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.containers {
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.trait {
+  width: 100%;
+  /* Ajustez la largeur selon vos besoins */
+  height: 1px;
+  /* Épaisseur du trait */
+  background-color: #3f3e3e;
+  /* Couleur du trait */
+  box-shadow: 0 7px 10px rgba(44, 44, 44, 0.9);
+  /* Ombre grise */
+}
+
+.user-profile {
+  margin-left: 8%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile:hover {
+  background-color: #a1a1a1;
+
+  /* Couleur grise au survol */
+}
+
+.user-icon {
+  font-size: 36px;
+  margin-left: auto;
+  order: 2;
+}
+
+.user-details {
+  color: #333;
+  order: 1;
+}
+
+.user-details h2 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.user-age {
+  margin: 5px 0 0;
+  font-size: 14px;
+  /* Taille de la police pour l'âge */
+}
+
+.photo-profile {
+  margin-left: 8%;
+  margin-right: 10%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+
+.photo-profile:hover {
+  background-color: #d4d2d2;
+  /* Couleur grise au survol */
+}
+
+.circle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #3498db;
+  /* Couleur bleue pour le cercle */
+  margin-left: 5px;
+  /* Pousse le cercle tout à droite */
+}
+
+.plus-icon {
+  font-size: 24px;
+  color: #3498db;
+  /* Couleur blanche pour l'icône du petit plus */
+}
+
+.add-photo {
+  color: #3498db;
+  /* Couleur bleue pour le lien */
+  text-decoration: none;
+  /* Supprime le soulignement du lien par défaut */
+  margin-left: 20px;
+  /* Marge à droite pour séparer du cercle */
+  font-weight: bold;
+}
+
+.info-perso {
+  margin-left: 8%;
+  margin-right: 10%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 1.5%;
+}
+
+.info-perso:hover {
+  background-color: #d4d2d2;
+  /* Couleur grise au survol */
+}
+
+.update-info {
+  color: #3498db;
+  /* Couleur bleue pour le lien */
+  text-decoration: none;
+  /* Supprime le soulignement du lien par défaut */
+  margin-left: 5px;
+  /* Marge à droite pour séparer du cercle */
+  font-weight: bold;
+}
+
+.line {
+  width: 82%;
+  /* Ajustez la largeur selon vos besoins */
+  height: 1px;
+  /* Épaisseur du trait */
+  background-color: #949393;
+  /* Couleur du trait */
+  box-shadow: 0 7px 10px rgba(44, 44, 44, 0.9);
+  /* Ombre grise */
+  margin-left: 8%;
+  margin-right: 11%;
+}
+
+div .compte {
+  margin-left: 10%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.password-box {
+  margin-left: 8%;
+  margin-right: 10%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+
+.password-box:hover {
+  background-color: #d4d2d2;
+  /* Couleur grise au survol */
+}
+
+.password h3 {
+  color: #3498db;
+  /* Couleur bleue pour le lien */
+  margin-left: 5px;
+  /* Marge à droite pour séparer du cercle */
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.password-box span {
+  margin-left: auto;
+}
+
+.eye {
+  font-size: 20px;
+  margin-left: auto;
+}
+
+.out {
+  margin-left: 8%;
+  margin-right: 10%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 1.5%;
+}
+
+.logout {
+  color: #34d0db;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.cancel {
+  margin-left: 8%;
+  margin-right: 10%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 1.5%;
+}
+
+.delete {
+  color: #eb0b3b;
+  margin-left: 5px;
+}
+#modif_profil {
+  display: none;
+}
+#image-profil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+}

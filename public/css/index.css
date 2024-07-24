@@ -1,0 +1,164 @@
+.recherches {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100% !important;
+}
+.image {
+  text-align: center;
+  max-width: 100rem;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  color: #1b9cfc;
+  font-weight: 700;
+  align-self: center;
+  padding: 0;
+  align-items: center;
+}
+.contenu {
+  max-width: 100rem;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+
+  align-self: center;
+  padding: 4rem 0 0 0;
+  align-items: center;
+}
+
+.carousel {
+  display: flex;
+  background-color: #f8efba;
+  margin: auto;
+}
+.KiloApp {
+  display: flex;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.barre {
+  text-align: center;
+}
+.lines {
+  width: 500px;
+  height: 45px;
+  position: relative;
+  text-align: center;
+}
+.lines::after,
+.lines::before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  background: #1e90ff;
+  width: 60%;
+  top: 38%;
+  left: 25%;
+}
+.list-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.card {
+  margin-right: 4rem;
+  margin-left: 4rem;
+  width: 25%;
+  margin-bottom: 4rem;
+}
+.card i {
+  font-size: 20px;
+  color: #26de81;
+}
+.card .titre {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: #1b9cfc;
+}
+.card .description {
+  font-weight: 200;
+}
+.protection {
+  display: flex;
+  margin-top: 3rem;
+}
+.protection1 {
+  padding: 0 2rem 2rem 2rem;
+  color: #55e6c1;
+  font-size: 20px;
+  margin-right: 1rem;
+  flex: 1;
+  text-align: justify;
+}
+.protection2 {
+  padding: 2rem;
+  color: white;
+  font-size: 20px;
+  flex: 1;
+  margin-right: 1rem;
+  background-color: #25ccf7;
+  text-align: justify;
+}
+.text-protection1 {
+  margin-top: 1rem;
+}
+.text-protection2 {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.text-protection2 span {
+  font-size: 25px;
+}
+.text-protection2 p {
+  margin-top: 2rem;
+  font-size: 16px;
+}
+.text-protection2 button {
+  background-color: white;
+  color: #45aaf2;
+  border-radius: 5rem;
+  border: 1px solid #45aaf2;
+  padding: 1rem;
+  width: 25%;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.text-protection2 button:hover {
+  background-color: #45aaf2;
+  color: white;
+}
+/* .lines::after {
+  left: 0;
+}
+.lines::before {
+  right: 0;
+} */
+/* .circle {
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+} */
+@media only screen and (max-width: 850px) {
+  .carousel {
+    flex-direction: column;
+  }
+  .protection {
+    flex-direction: column;
+  }
+}

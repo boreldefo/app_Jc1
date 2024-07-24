@@ -1,0 +1,129 @@
+.formregister2 {
+  display: none;
+}
+h1 {
+  color: #1e90ff !important;
+  text-align: center !important;
+  font-size: 20px !important;
+}
+/* phone css */
+.select-box {
+  position: relative;
+}
+
+.select-box input {
+  width: 100% !important;
+  padding: 1rem 0.6rem;
+  font-size: 1.5rem !important;
+  border-radius: 0.5rem;
+  border: 0.1rem solid transparent;
+  outline: none;
+}
+.selected-option {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0.5rem; */
+  align-items: center;
+  overflow: hidden;
+}
+.selected-option div {
+  background-color: #eee;
+  width: 6rem;
+  padding: 0.3rem 1rem 0 0.5rem !important;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+.selected-option div::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 0rem;
+  transform: translate(-50%) rotate(45deg);
+
+  width: 0.8rem;
+  height: 0.8rem;
+  border-right: 0.12rem solid black;
+  border-bottom: 0.12rem solid black;
+
+  transition: 0.2s;
+}
+.selected-option div.active::after {
+  transform: translate(-50%) rotate(225deg);
+}
+.select-box .options {
+  position: absolute;
+  top: 4rem;
+
+  width: 30rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: none;
+}
+.select-box .options.active {
+  display: block;
+}
+.select-box .options::before {
+  position: absolute;
+  content: "";
+  left: 1rem;
+  top: -1.2rem;
+  width: 0;
+  height: 0;
+  border: 0.6rem solid transparent;
+  border-bottom-color: black;
+}
+input.search-box {
+  background-color: #222f3e !important;
+  color: #ffff !important;
+  border-radius: 0.5rem 0.5rem 0 0;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 1.4rem 1.4rem !important;
+  height: 4rem;
+  font-size: 1.5rem !important;
+}
+.select-box ol {
+  list-style: none;
+  max-height: 23rem;
+  overflow: overlay;
+}
+.select-box ol::-webkit-scrollbar {
+  width: 0.6rem;
+}
+.select-box ol::-webkit-scrollbar-thumb {
+  width: 0.4rem;
+  height: 3rem;
+  background-color: #ccc;
+  border-radius: 0.4rem;
+}
+.select-box ol li {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.select-box ol li.hide {
+  display: none;
+}
+.select-box ol li:not(:last-child) {
+  border-bottom: 0.1rem solid #eee;
+}
+.select-box ol li:hover {
+  background-color: lightcyan;
+}
+.select-box ol li .country-name {
+  margin-left: 0.4rem;
+}
+.select-box .options {
+  position: sticky;
+  color: black;
+}
+
+.attestation {
+  display: flex;
+}
+.attestation input {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  font-size: 10rem;
+}
